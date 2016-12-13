@@ -1,5 +1,5 @@
 {
-  "name": "ilflask/BitrixTools",
+  "name": "ilflask/bitrix_tools",
   "description": "Вспомогательные методы для работы с 1с Битрикс",
   "keywords": ["bitrix"],
   "type": "library",
@@ -9,13 +9,10 @@
       "email": "ilflask@gmail.com"
     }
   ],
-  "version": "1.0.0",
-  "require": {
-    "php": ">=5.4.0"
-  },
+  "version": "0.0.1",
   "autoload": {
     "psr-4": {
-      "Ilflask\\": "src/Ilflask"
+      "ilflask\\": "src/ilflask"
     }
   }
 }
