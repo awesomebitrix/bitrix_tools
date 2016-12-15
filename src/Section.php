@@ -1,18 +1,18 @@
 <?php
 
-namespace Ilflask\BitrixTools\Section;
+namespace Ilflask\BitrixTools;
 
 class Section {
 
     /**
      * Возращает XML_ID по ID
      *
-     * @param integer $id
      * @param integer $iblockID
+     * @param integer $id
      *
      * @return bool|int
      */
-    static public function idToXml($id, $iblockID) {
+    static public function idToXml($iblockID, $id) {
         if (!intval($id) && !intval($iblockID)) {
             return false;
         }
@@ -43,12 +43,12 @@ class Section {
     /**
      * Возращает ID по XML_ID
      *
+     *@param integer $iblockID
      * @param string|integer $xml
-     * @param $iblockID
      *
      * @return bool|int
      */
-    static public function xmlToId($xml, $iblockID) {
+    static public function xmlToId($iblockID, $xml) {
         if (!$xml || !intval($iblockID)) {
             return false;
         }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ilflask\BitrixTools\Iblock;
+namespace Ilflask\BitrixTools;
 
 class Iblock {
 
