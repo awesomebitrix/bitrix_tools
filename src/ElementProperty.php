@@ -11,7 +11,7 @@ class ElementProperty {
      *
      * @param integer $iblockId
      * @param integer $elementId
-     * @param static $code
+     * @param string $code
      *
      * @return array|false
      */
@@ -27,8 +27,8 @@ class ElementProperty {
     /**
      * Значений всех свойств для элемента
      *
-     * @param $iblockId
-     * @param $elementId
+     * @param integer $iblockId
+     * @param integer $elementId
      *
      * @return array|false
      */
